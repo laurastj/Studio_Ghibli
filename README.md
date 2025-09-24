@@ -9,24 +9,21 @@ O repositório inclui `db.rb` com uma **senha genérica/placeholder**:
 ```ruby
 password: 'senha'
 
-
-```
 ## Tecnologias usadas
-```
+
 - [Ruby]
 - [PostgreSQL]
 - [HTTParty]
 - [pg]
 
-```
+
 ## 📂 Estrutura do projeto
-```
+
 app.rb # Script principal: consome a API e salva no banco
 db.rb # Conexão com PostgreSQL (com senha genérica para exemplo)
 
-```
 ## 🔧 Configuração do banco
-```
+
 No PostgreSQL (`psql`):
 
 ```sql
@@ -41,9 +38,8 @@ CREATE TABLE studio_ghibli (
     release_date VARCHAR(10)
 );
 
-```
 ## ▶️ Como executar
-```
+
 
 1. Instale as gems necessárias:
 
